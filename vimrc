@@ -38,7 +38,13 @@ set laststatus=2
 " by default, you can't backspace before the insertion point set with 'i'.
 " This configuration makes backspace behave more reasonably, in that you can
 " backspace over anything.
-set backspace=indent,eol,start
+" set backspace=indent,eol,start
+
+
+" This settings needed in order to be able to remove the last characher on the
+" line using backspace key.
+set virtualedit=onemore
+
 
 " By default, Vim doesn't let you hide a buffer (i.e. have a buffer that isn't
 " shown in any window) that has unsaved changes. This is to prevent you from "
