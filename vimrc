@@ -14,11 +14,14 @@
 " `vim -u foo`).
 set nocompatible
 
+" make cursor looks like a bold line
+set guicursor=i:ver25-iCursor
+
 " Turn on syntax highlighting.
 syntax on
 
 " Disable the default Vim startup message.
-set shortmess+=I
+" set shortmess+=I
 
 " Show line numbers.
 set number
