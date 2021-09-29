@@ -15,7 +15,35 @@
 set nocompatible
 
 " make cursor looks like a bold line
-set guicursor=i:ver25-iCursor
+" set guicursor=i:ver25-iCursor
+
+
+" reset the cursor on start (for older versions of vim, usually not required)
+" Ps = 0  -> blinking block.
+" Ps = 1  -> blinking block (default).
+" Ps = 2  -> steady block.
+" Ps = 3  -> blinking underline.
+" Ps = 4  -> steady underline.
+" Ps = 5  -> blinking bar (xterm).
+" Ps = 6  -> steady bar (xterm).
+
+
+augroup myCmds
+au!
+autocmd VimEnter * silent !echo -ne "\e[1 q"
+augroup END
+
+
+
+
+
+"A popular approach to indicate switching to and from Insert mode is toggling
+"the cursorline option, which is responsible for whether the current screen
+"line is highlighted (see :help cursorline):
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+
+
 
 " Turn on syntax highlighting.
 syntax on
