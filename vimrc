@@ -17,6 +17,14 @@ set nocompatible
 " make cursor looks like a bold line
 " set guicursor=i:ver25-iCursor
 
+set ruler
+
+
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 
 " reset the cursor on start (for older versions of vim, usually not required)
 " Ps = 0  -> blinking block.
