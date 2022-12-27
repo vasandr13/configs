@@ -1,2 +1,2 @@
 # configs
-This is just collection of usefull configs for differents utilities.
+This is just a collection of usefull configs for differents utilities.
