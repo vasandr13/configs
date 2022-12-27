@@ -13,7 +13,7 @@
 
 
 # Go straight to your favourite directory
-cd /<FULL_PATH_TO_YOUR_FAVOURITE_DIRECTOTY_GOES_HERE>/;
+cd /<FULL_PATH_TO_YOUR_FAVOURITE_DIRECTORY_GOES_HERE>/;
 
 # Git branch name in green colour in the prompt
 parse_git_branch() {
