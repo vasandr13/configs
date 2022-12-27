@@ -1,5 +1,7 @@
-# Changing the default command line prompt on MacBookPro
+# Changing the default command line prompt on MacBook Pro
 
+# Create this file in your home directory on your MacBook Pro.
+# Example: /Users/john/.bash_profile
 
 # The simplest one
 # export PS1="$ "
