@@ -1,4 +1,4 @@
-" This particulart file was taken from MIT Missing Semester Lectures
+" This particular file was taken from MIT Missing Semester Lectures
 " https://missing.csail.mit.edu/2020/editors/
 
 " Comments in Vimscript start with a `"`.
